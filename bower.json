@@ -1,18 +1,18 @@
 {
-  "name": "adapt-inline-menu",
-  "repository": "https://github.com/kunjsharma/adapt-inline-menu.git",
-  "version": "0.0.1",
-  "framework": "3.2.1",
-  "homepage": "https://github.com/kunjsharma/adapt-inline-menu",
-  "authors": [
-       "Kunj B Sharma <kunjsharma@hotmail.com>"
-   ],
-  "description": "An extension to allow learners to add inline menu.",
-  "main": "/js/adapt-inline-menu.js",
-  "keywords": [
-    "adapt-plugin",
-    "adapt-extension",
-	"adapt-inline-menu"
-  ],
-  "license": "GPLv3"
+    "name": "adapt-inline-menu",
+    "repository": "https://github.com/kunjsharma/adapt-inline-menu.git",
+    "framework": "3.2.1",
+    "version": "0.0.1",
+    "homepage": "https://github.com/kunjsharma/adapt-inline-menu",
+    "authors": [
+        "Kunj B Sharma <kunjsharma@hotmail.com>"
+    ],
+    "description": "An extension to allow learners to add inline menu.",
+    "main": "/js/adapt-inline-menu.js",
+    "keywords": [
+        "adapt-plugin",
+        "adapt-extension",
+        "adapt-inline-menu"
+    ],
+    "license": "GPLv3"
 }
