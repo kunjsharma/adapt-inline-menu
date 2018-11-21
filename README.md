@@ -1,16 +1,12 @@
 # adapt-inline-menu  
     
-An Adapt framework *extension* to add menu over the pages. Its 
-
-<img src="https://github.com/adaptlearning/documentation/blob/master/04_wiki_assets/plug-ins/images/resources01.gif" alt="Resources in action">      
+An Adapt framework *extension* to add menu over the pages.
 
 ## Installation
 
 Download the ZIP and extract into the src > extensions directory and run an appropriate Grunt task.
 
-or
-
-First, be sure to install the [Adapt Command Line Interface](https://github.com/cajones/adapt-cli), then from the command line run:-
+or run:
 
     adapt install inline-menu
 
