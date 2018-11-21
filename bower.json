@@ -4,15 +4,14 @@
   "version": "0.0.1",
   "framework": "3.2.1",
   "homepage": "https://github.com/kunjsharma/adapt-inline-menu",
-  "issues": "https://github.com/kunjsharma/issues",
-  "displayName" : "Resources",
-  "extension" : "resources",
-  "description": "An extension to allow learners to view resources",
+  "authors": [
+       "Kunj B Sharma <kunjsharma@hotmail.com>"
+   ],
+  "description": "An extension to allow learners to add inline menu.",
   "main": "/js/adapt-inline-menu.js",
   "keywords": [
     "adapt-plugin",
     "adapt-extension"
   ],
-  "license": "GPLv3",
-  "targetAttribute": "_resources"
+  "license": "GPLv3"
 }
