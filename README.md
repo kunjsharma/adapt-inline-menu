@@ -2,7 +2,7 @@
     
 An Adapt framework *extension* to add menu over the pages.
 
-<img src="https://github.com/kunjsharma/adapt-inline-menu/tree/master/assets/adapt-inline-menu.png" alt="Inline menu"> 
+<img src="assets/adapt-inline-menu.png" alt="Inline menu">
 
 ## Installation
 
