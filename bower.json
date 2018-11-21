@@ -2,7 +2,7 @@
   "name": "adapt-inline-menu",
   "repository": "https://github.com/kunjsharma/adapt-inline-menu.git",
   "version": "0.0.1",
-  "framework": ">=2.2",
+  "framework": "3.2.1",
   "homepage": "https://github.com/kunjsharma/adapt-inline-menu",
   "issues": "https://github.com/kunjsharma/issues",
   "displayName" : "Resources",
