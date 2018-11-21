@@ -1,6 +1,6 @@
 # adapt-inline-menu  
     
-An Adapt framework *extension* to add menu over the pages.
+An Adapt framework extension to add menu over the pages.
 
 <img src="assets/adapt-inline-menu.png" alt="Inline menu">
 
@@ -13,28 +13,28 @@ Download the ZIP and extract into the src > extensions directory and run an appr
 Add the `_inlineMenu` entry to the course:
 
 ```
-        "_inlineMenu": {
-        	"_isEnabled": true,
-        	"title": "Menu",
-        	"_items": [
-	            {
-	                "title": "Go to Menu",
-	                "_link": ""
-	            },
-	            {
-	                "title": "Presentation Components",
-	                "_link": "co-05"
-	            },
-	            {
-	                "title": "Question Components",
-	                "_link": "co-10"
-	            },
-	            {
-	                "title": "Adapt Assessment",
-	                "_link": "co-15"
-	            }
-	        ]
-	    }
+	"_inlineMenu": {
+		"_isEnabled": true,
+		"title": "Menu",
+		"_items": [
+	        {
+	            "title": "Go to Menu",
+	            "_link": ""
+	        },
+	        {
+	            "title": "Presentation Components",
+	            "_link": "co-05"
+	        },
+	        {
+	            "title": "Question Components",
+	            "_link": "co-10"
+	        },
+	        {
+	            "title": "Adapt Assessment",
+	            "_link": "co-15"
+	        }
+		]
+	}
 ```
 
 * `title` Menu item title

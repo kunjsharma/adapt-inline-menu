@@ -1,25 +1,26 @@
 {
-  "name": "adapt-inline-menu",
-  "homepage": "https://github.com/kunjsharma/adapt-inline-menu",
-  "authors": [
-    "Kunj B Sharma <kunjsharma@hotmail.com>"
-  ],
-  "description": "An extension that adds inline menu.",
-  "main": "/js/adapt-inline-menu.js",
-  "keywords": [
-    "adapt-plugin",
-    "adapt-extension",
-	"adapt-inline-menu"
-  ],
-  "license": "GPLv3",
-  "_release": "0.0.1",
-  "_resolution": {
-    "type": "branch",
-    "branch": "master",
-    "commit": "a8689dd696e5cd391934568b314eca8e5913e"
-  },
-  "_source": "git://github.com/kunjsharma/adapt-inline-menu.git",
-  "_target": "*",
-  "_originalSource": "adapt-inline-menu",
-  "_direct": true
+    "name": "adapt-inline-menu",
+    "homepage": "https://github.com/kunjsharma/adapt-inline-menu",
+    "authors": [
+        "Kunj B Sharma <kunjsharma@hotmail.com>"
+    ],
+    "description": "An extension that adds inline menu.",
+    "main": "/js/adapt-inline-menu.js",
+    "keywords": [
+        "adapt-plugin",
+        "adapt-extension",
+        "adapt-inline-menu"
+    ],
+    "license": "GPLv3",
+    "_release": "0.0.1",
+    "_resolution":
+    {
+        "type": "branch",
+        "branch": "master",
+        "commit": "a8689dd696e5cd391934568b314eca8e5913e"
+    },
+    "_source": "git://github.com/kunjsharma/adapt-inline-menu.git",
+    "_target": "*",
+    "_originalSource": "adapt-inline-menu",
+    "_direct": true
 }
