@@ -1,0 +1,231 @@
+{
+  "type": "object",
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "id": "http://jsonschema.net",
+  "required": false,
+  "globals": {
+    "resourcesEnd": {
+      "type": "string",
+      "required": true,
+      "default": "You have reached the end of the list of resources.",
+      "inputType": "Text",
+      "validators": [],
+      "translatable": true
+    }
+  },
+  "properties":{
+    "pluginLocations": {
+      "type": "object",
+      "required": true,
+      "properties": {
+        "config": {
+          "type": "object"
+        },
+        "course": {
+          "type": "object",
+          "properties": {
+            "_resources": {
+              "type": "object",
+              "required": false,
+              "legend": "Resources",
+              "properties": {
+                "_isEnabled": {
+                  "type": "boolean",
+                  "required":true,
+                  "default": true,
+                  "title": "Is enabled",
+                  "inputType": "Checkbox",
+                  "validators": [],
+                  "help": "Controls whether the Resources extension is enabled or disabled."
+                },
+                "_drawerOrder": {
+                  "type": "number",
+                  "required": false,
+                  "title": "Drawer order",
+                  "inputType": "Number",
+                  "default": 0,
+                  "help": "The order in which this extension should appear as a drawer item",
+                  "validators": ["number"]
+                },
+                "title": {
+                  "type": "string",
+                  "default": "Resources",
+                  "required": true,
+                  "title": "",
+                  "inputType": "Text",
+                  "validators": ["required"],
+                  "translatable": true
+                },
+                "description": {
+                  "type": "string",
+                  "default": "Click here to view resources for this course",
+                  "required": false,
+                  "title": "",
+                  "inputType": "Text",
+                  "validators": [],
+                  "translatable": true
+                },
+                "_filterButtons": {
+                  "type": "object",
+                  "title": "Filter Buttons",
+                  "properties": {
+                    "all": {
+                      "type": "string",
+                      "default": "All",
+                      "title": "",
+                      "inputType": "Text",
+                      "validators": [],
+                      "translatable": true
+                    },
+                    "document": {
+                      "type": "string",
+                      "default": "Documents",
+                      "title": "",
+                      "inputType": "Text",
+                      "validators": [],
+                      "translatable": true
+                    },
+                    "media": {
+                      "type": "string",
+                      "default": "Media",
+                      "title": "",
+                      "inputType": "Text",
+                      "validators": [],
+                      "translatable": true
+                    },
+                    "link": {
+                      "type": "string",
+                      "default": "Links",
+                      "title": "",
+                      "inputType": "Text",
+                      "validators": [],
+                      "translatable": true
+                    }
+                  }
+                },
+                "_filterAria": {
+                  "type": "object",
+                  "title": "Aria Labels",
+                  "properties": {
+                    "allAria": {
+                      "type": "string",
+                      "default": "View all resources",
+                      "title": "All",
+                      "inputType": "Text",
+                      "validators": [],
+                      "translatable": true
+                    },
+                    "documentAria": {
+                      "type": "string",
+                      "default": "View document resources",
+                      "title": "Documents",
+                      "inputType": "Text",
+                      "validators": [],
+                      "translatable": true
+                    },
+                    "mediaAria": {
+                      "type": "string",
+                      "default": "View media resources",
+                      "title": "Media",
+                      "inputType": "Text",
+                      "validators": [],
+                      "translatable": true
+                    },
+                    "linkAria": {
+                      "type": "string",
+                      "default": "View resource links",
+                      "title": "Links",
+                      "inputType": "Text",
+                      "validators": [],
+                      "translatable": true
+                    }
+                  }
+                },
+                "itemAriaExternal": {
+                  "type": "string",
+                  "default": "This content will open in a new window",
+                  "required": false,  
+                  "title": "New Window ARIA",
+                  "inputType": "Text",
+                  "validators": [],
+                  "help": "Text to explain to assistive technology users that the Resource will open in a new window",
+                  "translatable": true
+                },
+                "_resourcesItems": {
+                  "type": "array",
+                  "required": false,
+                  "title": "Resources Items",
+                  "items": {
+                    "type": "object",
+                    "required": false,
+                    "title": "Items",
+                    "properties": {
+                      "_type": {
+                        "type": "string",
+                        "required": true,
+                        "title": "Type",
+                        "inputType": { "type": "Select", "options": ["document", "media", "link"]},
+                        "validators": ["required"]
+                      },
+                      "_forceDownload": {
+                        "type": "boolean",
+                        "default": false,
+                        "title": "Force download",
+                        "inputType": "Checkbox",
+                        "validators": [],
+                        "help": "Controls whether the Resource is opened in a new window or downloaded. Force download is only supported in browsers that support the 'download' attribute."
+                      },
+                      "title": {
+                        "type": "string",
+                        "required": true,
+                        "title": "Title",
+                        "inputType": "Text",
+                        "validators": ["required"],
+                        "translatable": true
+                      },
+                      "filename": {
+                        "type": "string",
+                        "required": false,
+                        "title": "Filename",
+                        "inputType": "Text",
+                        "translatable": true,
+                        "help": "This can be used to set the name of the file when downloaded by the user, if different from the source filename (only supported in browsers that support the 'download' attribute)."
+                      },
+                      "description": {
+                        "type": "string",
+                        "required": false,
+                        "title": "Description",
+                        "inputType": "Text",
+                        "validators": [],
+                        "translatable": true
+                      },
+                      "_link": {
+                        "type": "string",
+                        "required": true,
+                        "title": "Link",
+                        "inputType": "Asset:other",
+                        "validators": ["required"]
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "contentobject": {
+          "type": "object"
+        },
+        "article": {
+          "type": "object"
+        },
+        "block": {
+          "type": "object"
+        },
+        "component": {
+          "type": "object"
+        }
+      }
+    }
+  }
+}

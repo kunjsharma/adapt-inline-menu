@@ -1,0 +1,17 @@
+{
+  "name": "adapt-inline-menu",
+  "version": "0.0.1",
+  "framework": ">=2.2",
+  "homepage": "https://github.com/kunjsharma/adapt-inline-menu",
+  "issues": "https://github.com/kunjsharma/issues",
+  "displayName" : "Resources",
+  "extension" : "resources",
+  "description": "An extension to allow learners to view resources",
+  "main": "/js/adapt-inline-menu.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-extension"
+  ],
+  "license": "GPLv3",
+  "targetAttribute": "_resources"
+}

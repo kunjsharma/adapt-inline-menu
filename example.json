@@ -1,0 +1,45 @@
+// To go in the course.json file
+"_resources": {
+    "_isEnabled": true,
+    "_drawerOrder": 1,
+    "title": "Resources",
+    "description": "Click here to view resources for this course",
+    "_filterButtons": {
+        "all": "All",
+        "document": "PDF",
+        "media": "Media",
+        "link": "Link"
+    },
+    // _filterAria is to provide accessibility support for assistive technologies
+    "_filterAria": {
+        "allAria": "View all resources",
+        "documentAria": "View document resources",
+        "mediaAria": "View media resources",
+        "linkAria": "View resource links"
+    },
+    "itemAriaExternal": "This content will open in a new window",
+    "_resourcesItems": [
+        {
+            "_type":"document",
+            "title":"Button idea",
+            "description":"Click here to see a proposed button idea",
+            "filename":"Buttons.pdf",
+            "_link":"course/en/pdf/adapt-framework-prototypes-buttons.pdf",
+            "_forceDownload": true
+        },
+        {
+            "_type":"media",
+            "title":"Adapt Learning YouTube Channel",
+            "description":"Fancy catching up on some Adapt material",
+            "_link":"https://www.youtube.com/channel/UCW8SlSFuCc--B66Gf9fAEcQ",
+            "_forceDownload": false
+        },
+        {
+            "_type":"link",
+            "title":"Community Site",
+            "description":"Click here to view our community site",
+            "_link":"https://community.adaptlearning.org",
+            "_forceDownload": false
+        }
+    ]
+}
