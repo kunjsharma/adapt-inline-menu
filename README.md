@@ -8,10 +8,6 @@ An Adapt framework *extension* to add menu over the pages.
 
 Download the ZIP and extract into the src > extensions directory and run an appropriate Grunt task.
 
-or run:
-
-    adapt install inline-menu
-
 ## Usage
 
 Add the `_inlineMenu` entry to the course:
