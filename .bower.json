@@ -1,27 +1,28 @@
 {
   "name": "adapt-inline-menu",
-  "version": "2.1.3",
-  "framework": ">=2.2",
   "homepage": "https://github.com/kunjsharma/adapt-inline-menu",
+  "authors": [
+    "Kunj B Sharma <kunjsharma@hotmail.com>"
+  ]
   "issues": "https://github.com/kunjsharma/issues",
-  "displayName": "Resources",
-  "extension": "resources",
-  "description": "An extension to allow learners to view resources",
+  "displayName": "Inline menu",
+  "extension": "inline-menu",
+  "description": "An extension that adds inline menu.",
   "main": "/js/adapt-inline-menu.js",
   "keywords": [
     "adapt-plugin",
     "adapt-extension"
   ],
   "license": "GPLv3",
-  "targetAttribute": "_resources",
-  "_release": "2.1.3",
+  "targetAttribute": "_inlineMenu",
+  "_release": "0.0.1",
   "_resolution": {
     "type": "version",
     "tag": "v2.1.3",
     "commit": "a8689dd696e5cd391936808b20e314eca8e5913e"
   },
   "_source": "git://github.com/kunjsharma/adapt-inline-menu.git",
-  "_target": ">=2.1.1",
+  "_target": "*",
   "_originalSource": "adapt-inline-menu",
   "_direct": true
 }
