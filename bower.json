@@ -11,7 +11,8 @@
   "main": "/js/adapt-inline-menu.js",
   "keywords": [
     "adapt-plugin",
-    "adapt-extension"
+    "adapt-extension",
+	"adapt-inline-menu"
   ],
   "license": "GPLv3"
 }
