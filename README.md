@@ -2,6 +2,8 @@
     
 An Adapt framework *extension* to add menu over the pages.
 
+<img src="https://github.com/kunjsharma/adapt-inline-menu/assets/adapt-inline-menu.png" alt="Inline menu"> 
+
 ## Installation
 
 Download the ZIP and extract into the src > extensions directory and run an appropriate Grunt task.
