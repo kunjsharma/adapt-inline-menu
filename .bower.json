@@ -1,6 +1,9 @@
 {
     "name": "adapt-inline-menu",
+	"version": "1.0.1",
+    "framework": "3.2.1",
     "homepage": "https://github.com/kunjsharma/adapt-inline-menu",
+    "issues": "https://github.com/kunjsharma/adapt-inline-menu",
     "authors": [
         "Kunj B Sharma <kunjsharma@hotmail.com>"
     ],
@@ -15,9 +18,9 @@
     "_release": "0.0.1",
     "_resolution":
     {
-        "type": "branch",
-        "branch": "master",
-        "commit": "a8689dd696e5cd391934568b314eca8e5913e"
+        "type": "version",
+     	"tag": "v0.0.1",
+    	"commit": "dd2830c12390c8c3d94r5f1f536e533c2b8cb97c"
     },
     "_source": "git://github.com/kunjsharma/adapt-inline-menu.git",
     "_target": "*",

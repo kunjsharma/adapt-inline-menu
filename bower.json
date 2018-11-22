@@ -1,14 +1,17 @@
 {
     "name": "adapt-inline-menu",
-    "repository": "https://github.com/kunjsharma/adapt-inline-menu.git",
+	"version": "0.0.1",
     "framework": "3.2.1",
-    "version": "0.0.1",
+    
     "homepage": "https://github.com/kunjsharma/adapt-inline-menu",
-    "authors": [
-        "Kunj B Sharma <kunjsharma@hotmail.com>"
-    ],
+	"issues": "https://github.com/kunjsharma/adapt-inline-menu",
+	"displayName" : "Table",
+  	"component" : "simple-table",
     "description": "An extension to allow learners to add inline menu.",
     "main": "/js/adapt-inline-menu.js",
+	"authors": [
+        "Kunj B Sharma <kunjsharma@hotmail.com>"
+    ],
     "keywords": [
         "adapt-plugin",
         "adapt-extension",
