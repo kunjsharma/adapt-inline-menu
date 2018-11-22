@@ -7,7 +7,7 @@
     "authors": [
         "Kunj B Sharma <kunjsharma@hotmail.com>"
     ],
-    "description": "An extension to allow learners to add inline menu.",
+    "description": "An extension that adds inline menu.",
     "main": "/js/adapt-inline-menu.js",
     "keywords": [
         "adapt-plugin",
