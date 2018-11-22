@@ -4,10 +4,17 @@
     "framework": "3.2.1",
     
     "homepage": "https://github.com/kunjsharma/adapt-inline-menu",
+<<<<<<< HEAD
 	"issues": "https://github.com/kunjsharma/adapt-inline-menu",
 	"displayName" : "Table",
   	"component" : "simple-table",
     "description": "An extension to allow learners to add inline menu.",
+=======
+    "authors": [
+        "Kunj B Sharma <kunjsharma@hotmail.com>"
+    ],
+    "description": "An extension that adds inline menu.",
+>>>>>>> origin/master
     "main": "/js/adapt-inline-menu.js",
 	"authors": [
         "Kunj B Sharma <kunjsharma@hotmail.com>"
