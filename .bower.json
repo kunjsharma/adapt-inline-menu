@@ -23,7 +23,7 @@
     	"commit": "dd2830c12390c8c3d94r5f1f536e533c2b8cb97c"
     },
     "_source": "git://github.com/kunjsharma/adapt-inline-menu.git",
-    "_target": "*",
+    "_target": ">=2.0.3",
     "_originalSource": "adapt-inline-menu",
     "_direct": true
 }
