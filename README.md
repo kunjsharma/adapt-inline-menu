@@ -6,7 +6,7 @@ An Adapt framework extension to add menu over the pages.
 
 ## Installation
 
-First, be sure to install the [Adapt Command Line Interface](https://github.com/cajones/adapt-cli), then from the command line run:-
+First, be sure to install the [Adapt Command Line Interface](https://github.com/cajones/adapt-cli), then from the command line run:
 
     adapt install inline-menu
 
