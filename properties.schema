@@ -36,6 +36,33 @@
                   "inputType": "Text",
                   "validators": [],
                   "translatable": true
+                },
+                "_items": {
+                  "type": "array",
+                  "required": false,
+                  "title": "Inline Menu Items",
+                  "items": {
+                    "type": "object",
+                    "required": false,
+                    "title": "Items",
+                    "properties": {
+                      "title": {
+                        "type": "string",
+                        "required": true,
+                        "title": "Title",
+                        "inputType": "Text",
+                        "validators": ["required"],
+                        "translatable": true
+                      },
+                      "_link": {
+                        "type": "string",
+                        "required": true,
+                        "title": "Link",
+                        "inputType": "Asset:other",
+                        "validators": ["required"]
+                      }
+                    }
+                  }
                 }
               }
             }
