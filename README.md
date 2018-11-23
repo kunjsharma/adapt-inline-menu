@@ -6,7 +6,11 @@ An Adapt framework extension to add menu over the pages.
 
 ## Installation
 
-Download the ZIP and extract into the src > extensions directory and run an appropriate Grunt task.
+First, be sure to install the [Adapt Command Line Interface](https://github.com/cajones/adapt-cli), then from the command line run:-
+
+    adapt install inline-menu
+
+Or, download the ZIP and extract into the src > extensions directory and run an appropriate Grunt task.
 
 ## Usage
 
