@@ -4,6 +4,8 @@ An Adapt framework extension to add menu over the pages.
 
 <img src="assets/adapt-inline-menu.png" alt="Inline menu">
 
+
+
 ## Installation
 
 First, be sure to install the [Adapt Command Line Interface](https://github.com/cajones/adapt-cli), then from the command line run:
@@ -44,6 +46,10 @@ Add the `_inlineMenu` entry to the course:
 * `title` Menu item title
 * `_link` Link to page. Empty sends to main menu.
 
+
+### Demo
+
+https://kunjsharma.github.io/#/id/co-05
 
 ### Limitations
 
