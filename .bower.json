@@ -1,7 +1,7 @@
 {
     "name": "adapt-inline-menu",
 	"version": "1.0.1",
-    "framework": "3.2.1",
+    "framework": "^3.2.1",
     "homepage": "https://github.com/kunjsharma/adapt-inline-menu",
     "issues": "https://github.com/kunjsharma/adapt-inline-menu",
     "authors": [
