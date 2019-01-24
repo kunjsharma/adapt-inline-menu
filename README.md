@@ -14,7 +14,11 @@ First, be sure to install the [Adapt Command Line Interface](https://github.com/
 
 Or, download the ZIP and extract into the src > extensions directory and run an appropriate Grunt task.
 
-## Usage
+### Demo
+
+https://kunjsharma.github.io/#/id/co-05
+
+### Usage
 
 Add the `_inlineMenu` entry to the course:
 
