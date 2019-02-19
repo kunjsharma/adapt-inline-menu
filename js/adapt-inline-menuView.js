@@ -45,7 +45,8 @@ define([
         updateStatus: function() {
             $('html').hasClass('location-menu')? $('.inline-menu').hide(): $('.inline-menu').show();
             
-            for (var [key, value] of Adapt.completionCollection) {
+            //Status works when merge completes, uncomment the code when its done.
+            /*for (var [key, value] of Adapt.completionCollection) {
                 var _aStatus = value.split('|'),
                     _sC = '',
                     _sV = '';
@@ -54,7 +55,7 @@ define([
 
                 this.$(".inline-menu-item-status[data-id='" + key +"']").addClass(_sV + ' ' + _sC);
                 this.$(".inline-menu-item-status[data-id='" + key +"']").siblings('button').addClass(_sV + ' ' + _sC);
-            }
+            }*/
         }
     });
 
