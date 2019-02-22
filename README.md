@@ -20,7 +20,7 @@ https://kunjsharma.github.io/#/id/co-05
 
 ### Usage
 
-Add the `_inlineMenu` entry to the course:
+Add `_inlineMenu` in course.json:
 
 ```
 	"_inlineMenu": {
