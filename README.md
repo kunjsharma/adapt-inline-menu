@@ -61,7 +61,7 @@ Developed for framework, not tested compatiblity with authoring tool.
 
 ### Browser/platform specification
 
-Intended to develop standard Adapt browser/devices specifications.
+Intended to develop standard Adapt browser/devices specification.
 
 ----------------------------
 **Version number:**  1.0.1 
