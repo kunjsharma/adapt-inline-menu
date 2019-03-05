@@ -7,7 +7,7 @@
 	"issues": "https://github.com/kunjsharma/adapt-inline-menu",
 	"displayName" : "InlineMenu",
   	"component" : "adapt-inline-menu",
-    "description": "An extension to allow learners to add inline menu.",
+    "description": "An extension that adds inline menu over the pages.",
     "authors": [
         "Kunj B Sharma <kunjsharma@hotmail.com>"
     ],

@@ -7,7 +7,7 @@
     "authors": [
         "Kunj B Sharma <kunjsharma@hotmail.com>"
     ],
-    "description": "An extension that adds inline menu.",
+    "description": "An extension that adds inline menu over the pages.",
     "main": "/js/adapt-inline-menu.js",
     "keywords": [
         "adapt-plugin",
@@ -15,11 +15,11 @@
         "adapt-inline-menu"
     ],
     "license": "GPLv3",
-    "_release": "0.0.1",
+    "_release": "1.0.1",
     "_resolution":
     {
         "type": "version",
-     	"tag": "v0.0.1",
+     	"tag": "v1.0.1",
     	"commit": "dd2830c12390c8c3d94r5f1f536e533c2b8cb97c"
     },
     "_source": "git://github.com/kunjsharma/adapt-inline-menu.git",
