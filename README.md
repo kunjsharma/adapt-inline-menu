@@ -57,7 +57,7 @@ https://kunjsharma.github.io/#/id/co-05
 
 ### Limitations
 
-Developed for framework, not tested compatiblity with authoring tool.
+Developed for framework, not tested compatiblity with authoring tool. Contributors are welcome.
 
 ### Browser/platform specification
 
