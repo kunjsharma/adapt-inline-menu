@@ -10,9 +10,15 @@
     "description": "An extension that adds inline menu over the pages.",
     "main": "/js/adapt-inline-menu.js",
     "keywords": [
+        "adapt",
+        "adapt-plugin",
         "adapt-plugin",
         "adapt-extension",
-        "adapt-inline-menu"
+        "adapt extension",
+        "adapt-inline-menu",
+        "adapt inline menu",
+        "adapt menu",
+        "adapt inline"
     ],
     "license": "GPLv3",
     "_release": "1.0.1",
