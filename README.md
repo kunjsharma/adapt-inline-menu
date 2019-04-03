@@ -53,7 +53,7 @@ Add `_inlineMenu` in course.json:
 
 ### Limitations
 
-Developed for framework, `properties.schema` requires to edit compatiblity with authoring tool. Contributors are welcome.
+Developed to work with framework, `properties.schema` requires to edit compatiblity with authoring tool. Contributors are welcome.
 
 ### Browser/platform specification
 
