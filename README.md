@@ -51,10 +51,6 @@ Add `_inlineMenu` in course.json:
 * `_link` Link to page. Empty sends to main menu.
 
 
-### Demo
-
-https://kunjsharma.github.io/#/id/co-05
-
 ### Limitations
 
 Developed for framework, not tested compatiblity with authoring tool. Contributors are welcome.
