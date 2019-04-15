@@ -17,15 +17,9 @@
         "Kunj B Sharma <kunjsharma@hotmail.com>"
     ],
     "keywords": [
-        "adapt",
-        "adapt-plugin",
         "adapt-plugin",
         "adapt-extension",
-        "adapt extension",
-        "adapt-inline-menu",
-        "adapt inline menu",
-        "adapt menu",
-        "adapt inline"
+        "adapt-inline-menu"
     ],
     "license": "GPLv3"
 }
