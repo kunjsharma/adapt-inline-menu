@@ -1,6 +1,6 @@
 {
     "name": "adapt-inline-menu",
-	"version": "2.0.0",
+	"version": "2.0.1",
     "framework": "^3.2.1",
     "homepage": "https://github.com/kunjsharma/adapt-inline-menu",
     "issues": "https://github.com/kunjsharma/adapt-inline-menu",
@@ -15,11 +15,11 @@
         "adapt-inline-menu"
     ],
     "license": "GPLv3",
-    "_release": "2.0.0",
+    "_release": "2.0.1",
     "_resolution":
     {
         "type": "version",
-     	"tag": "v2.0.0",
+     	"tag": "v2.0.1",
     	"commit": "dd2830c12390c8c3d94r5f1f356e533c2b8cb97c"
     },
     "_source": "git://github.com/kunjsharma/adapt-inline-menu.git",

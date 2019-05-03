@@ -29,25 +29,30 @@ Add `_inlineMenu` in course.json:
 		"_items": [
 	        {
 	            "title": "Go to Menu",
+	            "description": "",
 	            "_link": ""
 	        },
 	        {
 	            "title": "Presentation Components",
+	            "description": "",
 	            "_link": "co-05"
 	        },
 	        {
 	            "title": "Question Components",
+	            "description": "",
 	            "_link": "co-10"
 	        },
 	        {
 	            "title": "Adapt Assessment",
+	            "description": "",
 	            "_link": "co-15"
 	        }
 		]
 	}
 ```
 
-* `title` Menu item title
+* `title` Menu item title.
+* `description` Item title description (optional).
 * `_link` Link to page. Empty sends to main menu.
 
 

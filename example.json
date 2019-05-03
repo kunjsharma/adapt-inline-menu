@@ -5,18 +5,22 @@
     "_items": [
         {
             "title": "Go to Menu",
+            "description": "",
             "_link": ""
         },
         {
             "title": "Presentation Components",
+            "description": "",
             "_link": "co-05"
         },
         {
             "title": "Question Components",
+            "description": "",
             "_link": "co-10"
         },
         {
             "title": "Adapt Assessment",
+            "description": "",
             "_link": "co-15"
         }
     ]

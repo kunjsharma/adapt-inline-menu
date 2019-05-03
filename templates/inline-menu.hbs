@@ -7,17 +7,17 @@
 	<div class="inline-menu-item {{_type}}">
 		<div class="inline-menu-item-status" data-id="{{_link}}"></div>
 		<button class="base"
-			data-type="{{_type}}"
 			data-href="{{_link}}"
-			data-bookmark="{{_bookmark}}"
 			tabindex="0"
 			aria-label="{{{title}}}. {{lookup ../model._filterButtons _type}}.{{#if description}} {{{description}}}.{{/if}} {{../model.itemAriaExternal}}.">
 			<div class="inline-menu-item-title">
 				<div class="inline-menu-item-title-inner">{{{title}}}</div>
 			</div>
+			{{#if description}}
 			<div class="inline-menu-item-description">
 				<div class="inline-menu-item-description-inner">{{{description}}}</div>
 			</div>
+			{{/if}}
 		</button>
 	</div>
 	{{/each}}
