@@ -9,12 +9,12 @@
   	"component" : "adapt-inline-menu",
     "description": "An extension that adds inline menu over the pages.",
     "authors": [
-        "Kunj B Sharma <kunjsharma@hotmail.com>"
+        "Kunj <kunjsharma@hotmail.com>"
     ],
     "description": "An extension that adds inline menu.",
     "main": "/js/adapt-inline-menu.js",
 	"authors": [
-        "Kunj B Sharma <kunjsharma@hotmail.com>"
+        "Kunj <kunjsharma@hotmail.com>"
     ],
     "keywords": [
         "adapt-plugin",

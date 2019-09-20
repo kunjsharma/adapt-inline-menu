@@ -5,7 +5,7 @@
     "homepage": "https://github.com/kunjsharma/adapt-inline-menu",
     "issues": "https://github.com/kunjsharma/adapt-inline-menu",
     "authors": [
-        "Kunj B Sharma <kunjsharma@hotmail.com>"
+        "Kunj <kunjsharma@hotmail.com>"
     ],
     "description": "An extension that adds inline menu over the pages.",
     "main": "/js/adapt-inline-menu.js",
